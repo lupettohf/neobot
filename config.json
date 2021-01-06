@@ -4,9 +4,9 @@
 		"password": "",
 		"host": "",
 		"port": "",
-	}
+	},
 	"server": {
-		"host_bind": ""
-		"port": ""
+		"host_bind": "",
+		"port": "",
 	}
 }
