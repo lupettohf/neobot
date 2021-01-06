@@ -1,0 +1,30 @@
+{
+  "name": "neobot",
+  "version": "0.1.2",
+  "description": "Trasparent and persistant Minecraft proxy with bot features.",
+  "main": "index.js",
+  "dependencies": {
+    "minecraft-protocol": "latest",
+    "mineflayer": "^2.29.1",
+    "mineflayer-auto-eat": "1.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lupettohf/neobot.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "AFK Bot",
+    "Persistant Proxy"
+  ],
+  "author": "lupettohf",
+  "license": "beerware",
+  "bugs": {
+    "url": "https://github.com/lupettohf/neobot/issues"
+  },
+  "homepage": "https://github.com/lupettohf/neobot/"
+}
