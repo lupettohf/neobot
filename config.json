@@ -1,0 +1,12 @@
+{
+	"client": {
+		"username": "",
+		"password": "",
+		"host": "",
+		"port": "",
+	}
+	"server": {
+		"host_bind": ""
+		"port": ""
+	}
+}

@@ -1,7 +1,7 @@
 var mineflayer = require('mineflayer')
 const mc = require('minecraft-protocol');
 var autoeat = require("mineflayer-auto-eat")
-var botConfig = require('./config.json')
+var config = require('./config.json')
 const cachePackets = require('./cachePackets.js');
 
 var proxyClient; // This is the real client (java)
@@ -21,8 +21,8 @@ function run()
 	server = mc.createServer({ 
     	'online-mode': true,
     	encryption: true,
-    	host: '0.0.0.0',
-    	port: 25565,
+    	host: config.server.host_bind,
+    	port: config.server.port,
     	version: "1.12.2",
     	'max-players': maxPlayers = 1,
     	'motd': "§cl§6u§eh§af§9'§bs§5 §ca§6f§ek§a §9p§br§5o§cx§6y§e §as§9e§br§5v§ce§6r"
@@ -30,10 +30,10 @@ function run()
 
   	log("Starting mineflayer client");
   	bot = mineflayer.createBot({
-    	host: "",
-    	port: 25565,
-    	username: "",
-    	password: "",
+    	host: config.client.host,
+    	port: config.client.port,
+    	username: config.client.username,
+    	password: config.client.password,
     	plugins: {
       		physics: false
     	},

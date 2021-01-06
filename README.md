@@ -16,7 +16,7 @@ This project aims to be a a persistent proxy and a bot for Minecraft servers (mo
 * Right now the bot is developed for 1.12.2, i could work even on newer and older versions, hover due to the use of version specific packets some features need or might need tweaks to work in versions different than 1.12.2
 
 ## To-Do
-* Configuration system
+* ~Configuration system~ done
 * A better command system/modular plugins (right now commands gets also passed to the server)
 * Handling of crashes, disconnects, kicks, ban and reboots
 * Webhook notifications to Discord or other services
